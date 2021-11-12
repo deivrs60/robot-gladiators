@@ -19,11 +19,10 @@ var enemyAttack = 12;
 //          * Defeat each enemy-robot
 // "LOSE" - Player robot's health is zero or less
 
+// Alert players that they are starting the round
+window.alert("Welcome to Robot Gladiators!");
 
 var fight = function(enemyName) {
-
-    // Alert players that they are starting the round
-    window.alert("Welcome to Robot Gladiators!");
 
     // Fight or Skip
     var promptFight = window.prompt("Would you like to FIGHT or SKIP this battle? Enter 'FIGHT' or 'SKIP' to choose.");
